@@ -7,7 +7,7 @@ public class MySQL_Test {
 
 		MySQL db = new MySQL();
 		try {
-			db.MySQLConnection("root", "9u696", "prueba");
+			db.MySQLConnection("jdbc_user", "1111", "jdbc_schema");
 		} catch (Exception e) {
 			System.out.println(e);
 		}
